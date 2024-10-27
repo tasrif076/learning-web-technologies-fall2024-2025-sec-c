@@ -1,5 +1,5 @@
 <products>
-    <product sr="1">    
+    <product>    
         <id>11</id>
         <name>Samsung</name>
         <unit_price>35000</unit_price>
@@ -7,7 +7,7 @@
         <status>1</status>
     </product>
 
-    <product sr="2">    
+    <product>    
         <id>20</id>
         <name>HTC</name>
         <unit_price>65300</unit_price>
@@ -15,7 +15,7 @@
         <status>0</status>
     </product>
 
-    <product sr="3">    
+    <product>    
         <id>23</id>
         <name>Nokia</name>
         <unit_price>25100</unit_price>
