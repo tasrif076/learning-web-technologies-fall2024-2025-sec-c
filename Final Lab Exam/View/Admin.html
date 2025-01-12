@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Employer Management</title>
+</head>
+<body>
+    <h1>Employee Job Portal</h1>
+
+    <!-- Create Employer -->
+    <h3>Register New Employer</h3>
+    <p>Employee Name : <input type="text" id="employerName" placeholder="Employer Name"></p>
+    <p>Company Name : <input type="text" id="companyName" placeholder="Company Name"></p>
+    <p>Contact No : <input type="text" id="contactNo" placeholder="Contact No"></p>
+    <p>Username : <input type="text" id="username" placeholder="Username"></p>
+    <p>Password :  <input type="password" id="password" placeholder="Password"> </p>
+    <button onclick="createEmployer()">Create</button>
+    <br><br>
+
+    <h3>Search Employer by ID</h3>
+    <input type="number" id="searchID" placeholder="Enter Employer ID">
+    <button onclick="searchEmployer()">Search</button>
+    <div id="searchResult"></div>
+    <br><br>
+
+    <!-- Read Employers -->
+    <h3>Read Employers</h3>
+    <button onclick="readEmployers()">Read All Employers</button>
+    <div id="readResult"></div>
+    <br><br>
+
+    <!-- Update Employer -->
+    <h3>Update Employer Information</h3>
+    <p>Employer ID : <input type="number" id="updateId" placeholder="Employer ID"> </p>
+    <p>Employer Name :  <input type="text" id="updateEmployerName" placeholder="Employer Name"></p>
+    <p>Company Name :  <input type="text" id="updateCompanyName" placeholder="Company Name"></p>
+    <p>Contact No : <input type="text" id="updateContactNo" placeholder="Contact No"></p>
+    <p>Username :  <input type="text" id="updateUsername" placeholder="Username"></p>
+    <p>Password :  <input type="password" id="updatePassword" placeholder="Password"></p>
+    <button onclick="updateEmployer()">Update</button>
+    <br><br>
+
+    <!-- Delete Employer -->
+    <h3>Delete Employer Information</h3>
+    <input type="number" id="deleteId" placeholder="Employer ID">
+    <button onclick="deleteEmployer()">Delete</button>
+    <br><br>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="../Asset/admin.js"></script>
+</body>
+</html>
